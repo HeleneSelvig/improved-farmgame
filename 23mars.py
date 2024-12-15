@@ -20,7 +20,7 @@ import pygame as pg
 # importerer sys som hjelper med å lukke spillet
 import sys
 # importerer randint og randrange funksjonene fra random-biblioteket
-from random import randint, randrange
+from random import randint
 
 
 # Konstanter
