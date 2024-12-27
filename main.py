@@ -5,10 +5,10 @@ import sys
 # importerer randint fra random-biblioteket
 from random import randint
 
-from gamemaker import gamemaker
-from gameplayer import gameplayer
-from startscreen import startscreen
-from endscreen import endscreen
+from functions.gamemaker import gamemaker
+from functions.gameplayer import gameplayer
+from functions.startscreen import startscreen
+from functions.endscreen import endscreen
 
 # Konstanter
 WIDTH = 1000  # bredden til vinduet
@@ -40,11 +40,11 @@ pg.mixer.music.play(loops=-1)
 pg.mixer.music.set_volume(0.5)
 
 
-
 run = True
 start = True
 game = False
 gameover = False
+
 
 # Spill-løkken
 while run:
@@ -116,8 +116,3 @@ pg.quit()
 # hjelper med å avslutte spillet
 # gir en melding om "process ended with exit code 0", som betyr at alt gikk som det skulle
 sys.exit()
-
-
-
-
-
