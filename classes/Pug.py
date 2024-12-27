@@ -1,7 +1,7 @@
 # importerer pygame-biblioteket
 import pygame as pg
 
-from Character import Character
+from classes.Character import Character
 
 # Konstanter
 WIDTH = 1000  # bredden til vinduet
