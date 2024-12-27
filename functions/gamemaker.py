@@ -3,11 +3,11 @@ import pygame as pg
 # importerer randint og randrange funksjonene fra random-biblioteket
 from random import randint
 
-from SpriteSheetPug import SpriteSheetPug
-from SpriteSheetChick import SpriteSheetChick
-from Pug import Pug
-from Chick import Chick
-from Rectangle import Rectangle
+from classes.SpriteSheetPug import SpriteSheetPug
+from classes.SpriteSheetChick import SpriteSheetChick
+from classes.Pug import Pug
+from classes.Chick import Chick
+from classes.Rectangle import Rectangle
 
 #henter først spritesheetet med 12 pug-bilder (convert_alpha gjør at bildet bruker samme pixel-format som skjermen)
 sprite_sheet_image = pg.image.load("bilder/pug.png").convert_alpha()
